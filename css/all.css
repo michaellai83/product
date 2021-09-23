@@ -143,7 +143,6 @@ img {
 .container .header {
   max-width: 95%;
   margin: 0 auto;
-  padding: 36px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,6 +159,7 @@ img {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
+    padding: 30px;
   }
 }
 .container .titlelogo {
@@ -267,17 +267,16 @@ img {
   height: 24px;
   position: absolute;
   right: 0;
-  top: 60px;
+  top: 25px;
 }
 @media (max-width: 767px) {
   .container .shoppingcart {
-    top: 40px;
+    top: 30px;
   }
 }
 .container .main {
   max-width: 940px;
   margin: 0 auto;
-  margin-top: 30px;
   margin-bottom: 60px;
 }
 @media (max-width: 767px) {
@@ -297,6 +296,7 @@ img {
   .container .main .mainpic {
     background-image: none;
     height: auto;
+    margin-bottom: 0px;
   }
 }
 .container .main .mainpic img {
@@ -395,6 +395,7 @@ img {
 .container .main .article .items .item1 {
   padding-left: 20px;
   position: relative;
+  padding-bottom: 20px;
 }
 @media (max-width: 767px) {
   .container .main .article .items .item1 {
@@ -567,7 +568,7 @@ img {
   text-decoration: none;
   display: block;
   color: #3F5D45;
-  padding: 20px 25px 0 25px;
+  padding: 20px 25px 20px 25px;
 }
 .container .main .page ul .num:hover {
   background-color: #3F5D45;

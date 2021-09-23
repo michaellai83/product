@@ -4,7 +4,6 @@
     .header{
         max-width: 95%;
         margin: 0 auto;
-        padding: 36px  0;
         display: flex;
         justify-content: space-around;
         align-items:center;
@@ -12,6 +11,7 @@
         @include pad{
             display:block;
             align-items: start;
+            padding: 30px;
         };
         
         }
@@ -89,16 +89,15 @@
             height: 24px;
             position: absolute;
             right: 0;
-            top:60px;
+            top:25px;
             @include pad {
-                top:40px;
+                top:30px;
             };
         }
     
     .main {
         max-width: 940px;
         margin: 0 auto;
-        margin-top: 30px;
         margin-bottom: 60px;
         @include pad{
             max-width: 374px;
@@ -113,6 +112,7 @@
             @include pad{
                 background-image: none;
                 height: auto;
+                margin-bottom: 0px;
             };
             img{
                 display: none;
@@ -183,6 +183,7 @@
                 .item1{
                     padding-left: 20px;
                     position: relative;
+                    padding-bottom: 20px;
                     @include pad {
                         margin-bottom: 30px;
                     };
@@ -338,7 +339,7 @@
                     text-decoration: none;
                     display: block;
                     color: #3F5D45;
-                    padding: 20px 25px 0 25px;
+                    padding: 20px 25px 20px 25px;
                     &:hover{
                         background-color: $darkgreen;
                         color: $lightgreen;
