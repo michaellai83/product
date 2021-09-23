@@ -1,0 +1,44 @@
+@mixin pad {
+    @media(max-width: 767px){
+        @content
+    }
+}
+@mixin iphone {
+    @media(max-width: 374px){
+        @content
+    }
+}
+@mixin logo{
+    display: block;
+    background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-all-dark.svg) no-repeat;
+    text-indent:101%; 
+    overflow:hidden; 
+    white-space:nowrap; 
+}
+@mixin logo2{
+    display: block;
+    background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logotype-lg-dark.svg) no-repeat;
+    text-indent:101%; 
+    overflow:hidden; 
+    white-space:nowrap; 
+}
+@mixin shoppingcart{
+    display: block;
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true) no-repeat center;
+    text-indent:101%; 
+    overflow:hidden; 
+    white-space:nowrap; 
+}
+@mixin dehaze {
+    display: block;
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/dehaze-24px.png?raw=true) no-repeat;
+    text-indent:101%; 
+    overflow:hidden; 
+    white-space:nowrap; 
+}
+@mixin logof{
+    display: block;
+    text-indent:101%; 
+    overflow:hidden; 
+    white-space:nowrap; 
+}
